@@ -1,0 +1,127 @@
+.loginPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.loginImageSection {
+  flex: 1;
+  max-height: 400px;
+}
+
+.loginImageSection img {
+  width: 100%;
+}
+
+.loginFormSection {
+    width: 340px;
+  background-color: #304ffe; /* This is a blue color similar to the image provided */
+  color: #ffffff; /* Ensures text is white against the blue background */
+  border-top-right-radius: 10px; /* Rounds the top right corner */
+  border-bottom-right-radius: 10px; /* Rounds the bottom right corner */
+  padding: 2em; /* Add padding inside the login form section */
+}
+.pageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #eef2f7; /* This sets the background of the entire page */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff; /* White background for the container */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Optional: adds some shadow for depth */
+  border-radius: 10px; /* Optional: rounds the corners */
+}
+
+
+.loginForm {
+  max-width: 320px; /* Adjust the width as needed */
+}
+
+.loginTitle {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.inputContainer {
+  margin-bottom: 1rem;
+}
+
+.loginInput {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  background-color: #304ffe;
+}
+
+.loginOptions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+::placeholder {
+  color: rgb(255, 255, 255);
+  opacity: 1; /* Firefox */
+}
+
+::-ms-input-placeholder { /* Edge 12 -18 */
+  color: rgb(255, 255, 255);
+}
+
+.rememberMe {
+  /* Style your checkbox label */
+}
+
+.forgotPassword {
+  color: white;
+}
+
+.signInButton {
+  background-color: #ffa500; /* Use the color you prefer */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+    border-radius: 20px;
+    width: 110%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signInButton:hover {
+  background-color: #e69500; 
+}
+
+.registerPrompt {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.registerPrompt a {
+  color: #ffffff; /* Style link to register */
+}
+
+/* ... existing styles ... */
+
+.loginImageSection {
+  flex: 1;
+  width: 320px;
+  overflow-y: auto; /* Allows scrolling if the content is too long */
+  padding: 20px;
+}
+
+.newsArticle {
+  margin-bottom: 20px;
+  width: 320px;
+  padding: 10px;
+  border-bottom: 1px solid #ccc; /* Adds a line between articles */
+}
+
